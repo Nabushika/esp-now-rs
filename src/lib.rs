@@ -1,5 +1,6 @@
+#[allow(dead_code)]
+#[allow(non_camel_case_types)]
 mod c_library {
-    #[allow(non_camel_case_types)]
     type esp_err_t = cty::c_int;
 
     const ESP_ERR_WIFI_BASE : usize = 0x3000;
